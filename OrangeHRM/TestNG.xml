@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="test">
+<!--        <classes>-->
+<!--            <class name="Login.login" />-->
+<!--            <class name="Home.Dashboard" />-->
+<!--        </classes>-->
+        <packages>
+            <package name="Login" />
+<!--            <package name="secondpackage" />-->
+        </packages>
+    </test>
+</suite>
